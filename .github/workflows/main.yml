@@ -1,7 +1,5 @@
 name: morning
 on:
-  push:
-    branches: [ main ]
   schedule:
     - cron: 0 0/1 * * * ?
   workflow_dispatch:
